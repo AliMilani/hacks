@@ -1,0 +1,10 @@
+{
+  "name": "zarebin-domain-extractor",
+  "version": "1.0.0",
+  "main": "domain-extractor.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
