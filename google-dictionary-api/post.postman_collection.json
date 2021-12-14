@@ -1,0 +1,181 @@
+{
+  "info": {
+    "name": "post.postman_collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "/v1/dictionaryExtensionData?term=metadata&language=en&corpus=en-US&country=US&key=AIzaSyA6EEtrDCfBkHV8uU2lgGY-N383ZgAOo7Y",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Host",
+            "value": "content-dictionaryextension-pa.googleapis.com",
+            "type": "text"
+          },
+          {
+            "key": "Connection",
+            "value": "keep-alive",
+            "type": "text"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+            "type": "text"
+          },
+          {
+            "key": "X-Goog-Encode-Response-If-Executable",
+            "value": "base64",
+            "type": "text"
+          },
+          {
+            "key": "X-Origin",
+            "value": "chrome-extension://mgijmajocgfcbeboacabfgobmjgjcoja",
+            "type": "text"
+          },
+          {
+            "key": "X-ClientDetails",
+            "value": "appVersion=5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F96.0.4664.93%20Safari%2F537.36&platform=Win32&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F96.0.4664.93%20Safari%2F537.36",
+            "type": "text"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0",
+            "type": "text"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
+            "type": "text"
+          },
+          {
+            "key": "X-Requested-With",
+            "value": "XMLHttpRequest",
+            "type": "text"
+          },
+          {
+            "key": "X-JavaScript-User-Agent",
+            "value": "google-api-javascript-client/1.1.0",
+            "type": "text"
+          },
+          {
+            "key": "X-Referer",
+            "value": "chrome-extension://mgijmajocgfcbeboacabfgobmjgjcoja",
+            "type": "text"
+          },
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\"",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*",
+            "type": "text"
+          },
+          {
+            "key": "X-Client-Data",
+            "value": "CKK1yQEIkLbJAQiltskBCMS2yQEIqZ3KAQie+csBCOaEzAEItoXMAQjLicwBCNKPzAE=",
+            "type": "text"
+          },
+          {
+            "key": "Sec-Fetch-Site",
+            "value": "same-origin",
+            "type": "text"
+          },
+          {
+            "key": "Sec-Fetch-Mode",
+            "value": "cors",
+            "type": "text"
+          },
+          {
+            "key": "Sec-Fetch-Dest",
+            "value": "empty",
+            "type": "text"
+          },
+          {
+            "key": "Referer",
+            "value": "https://content-dictionaryextension-pa.googleapis.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.fa.olAVjIgzvhs.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCMVGvXOFpI1Lsjy6-N3V3nCaWRirA%2Fm%3D__features__",
+            "type": "text"
+          },
+          {
+            "key": "Accept-Encoding",
+            "value": "gzip, deflate, br",
+            "type": "text"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "en-US,en;q=0.9,fa;q=0.8",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": "https://content-dictionaryextension-pa.googleapis.com/v1/dictionaryExtensionData?term=metadata&language=en&corpus=en-US&country=US&key=AIzaSyA6EEtrDCfBkHV8uU2lgGY-N383ZgAOo7Y"
+      },
+      "response": {
+        "name": "/v1/dictionaryExtensionData?term=metadata&language=en&corpus=en-US&country=US&key=AIzaSyA6EEtrDCfBkHV8uU2lgGY-N383ZgAOo7Y",
+        "status": "OK",
+        "code": 200,
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json; charset=UTF-8"
+          },
+          {
+            "key": "Vary",
+            "value": "Origin"
+          },
+          {
+            "key": "Vary",
+            "value": "X-Origin"
+          },
+          {
+            "key": "Vary",
+            "value": "Referer"
+          },
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "key": "Date",
+            "value": "Mon, 13 Dec 2021 20:28:51 GMT"
+          },
+          {
+            "key": "Server",
+            "value": "ESF"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "private"
+          },
+          {
+            "key": "X-XSS-Protection",
+            "value": "0"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Alt-Svc",
+            "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+          },
+          {
+            "key": "Transfer-Encoding",
+            "value": "chunked"
+          }
+        ],
+        "body": "{\n  \"dictionaryData\": [\n    {\n      \"entries\": [\n        {\n          \"headword\": \"metadata\",\n          \"phonetics\": [\n            {\n              \"text\": \"ˈmedəˌdādə\",\n              \"type\": \"respell\",\n              \"oxfordAudio\": \"//ssl.gstatic.com/dictionary/static/sounds/20200429/metadata--_us_2_rr.mp3\"\n            },\n            {\n              \"text\": \"ˈmedəˌdadə\",\n              \"type\": \"respell\"\n            }\n          ],\n          \"senseFamilies\": [\n            {\n              \"morphUnits\": [\n                {\n                  \"formType\": {\n                    \"posTag\": \"NN\",\n                    \"description\": \"noun\"\n                  },\n                  \"wordForm\": \"metadata\"\n                },\n                {\n                  \"formType\": {\n                    \"posTag\": \"NN\",\n                    \"description\": \"noun\"\n                  },\n                  \"wordForm\": \"meta-data\"\n                }\n              ],\n              \"senses\": [\n                {\n                  \"conciseDefinition\": \"set of data that describes and gives information about other data\",\n                  \"semanticClasses\": [\n                    \"data\"\n                  ],\n                  \"domainClasses\": [\n                    \"Statistics\",\n                    \"Computing\"\n                  ],\n                  \"definition\": {\n                    \"fragments\": [\n                      {\n                        \"text\": \"a set of data that describes and gives information about other data.\"\n                      }\n                    ],\n                    \"text\": \"a set of data that describes and gives information about other data.\"\n                  },\n                  \"sourceId\": \"m_en_gbus0636000.007\",\n                  \"relevantTopics\": [\n                    {\n                      \"name\": \"statistics\",\n                      \"clusterName\": \"mathematics\"\n                    },\n                    {\n                      \"name\": \"computing\",\n                      \"clusterName\": \"technology\"\n                    }\n                  ],\n                  \"kgMapping\": {\n                    \"relatedEntities\": [\n                      {\n                        \"targetMid\": \"/m/05451\",\n                        \"relationType\": \"EQUIVALENT\"\n                      }\n                    ]\n                  },\n                  \"wsdSenseIds\": [\n                    \"m_en_us1267410.001\"\n                  ],\n                  \"additionalExamples\": [\n                    \"In the context of biological informatics, metadata is an interoperability issue.\",\n                    \"Cheap metadata is metadata made by someone else, or rather by many someone elses.\",\n                    \"He maintains that any scheme that requires humans to input metadata with their data will fail.\",\n                    \"It is the collection of metadata that allows computer software to reliably deal with the data.\",\n                    \"That metadata includes the path name, and the attributes used to view storage and use storage.\",\n                    \"Link the Microprocessor metadata to supporting documentation useful for operation.\",\n                    \"When a file system's data or metadata becomes scrambled, data corruption ensues.\",\n                    \"Remember, metadata is a description of the data that accompanies the data in XML.\",\n                    \"Smith also points out that the ratio of actual data with respect to metadata will continue to shrink.\",\n                    \"Although metadata is integral to the Semantic Web, metadata on its own is far from sufficient.\",\n                    \"Users need this information to contact the publisher of the displayed metadata.\",\n                    \"For descriptive metadata it may even be an entry in a catalog if the catalog record can be adequately referenced.\",\n                    \"This would allow virtually any kind of additional file metadata to be stored with a file.\",\n                    \"Commercial search engines practice automatic metadata generation in two situations.\",\n                    \"First, it does not store any metadata changes, such as the permissions of a file or the renaming of a file.\"\n                  ]\n                }\n              ],\n              \"partsOfSpeech\": [\n                {\n                  \"value\": \"noun\"\n                }\n              ]\n            }\n          ],\n          \"syllabifiedHeadword\": \"met·a·da·ta\",\n          \"locale\": \"en-US\",\n          \"headwordMatchesUserQuery\": true,\n          \"entrySeqNo\": 4862900,\n          \"sourceId\": \"m_en_gbus0636000\",\n          \"corpus\": {\n            \"name\": \"en-US\",\n            \"language\": \"en\"\n          }\n        }\n      ],\n      \"queryTerm\": \"metadata\",\n      \"usageOverTimeImage\": {\n        \"desktop\": {\n          \"width\": 512,\n          \"height\": 120,\n          \"url\": \"ngram/en/desktop/a882b63ed681fad4fcb79bbe1c4571dea0fab2e8.png\"\n        },\n        \"mobile\": {\n          \"width\": 544,\n          \"height\": 120,\n          \"url\": \"ngram/en/mobile/a882b63ed681fad4fcb79bbe1c4571dea0fab2e8.png\"\n        },\n        \"tablet\": {\n          \"width\": 1040,\n          \"height\": 240,\n          \"url\": \"ngram/en/tablet/a882b63ed681fad4fcb79bbe1c4571dea0fab2e8.png\"\n        }\n      }\n    }\n  ],\n  \"status\": 200\n}\n"
+      }
+    }
+  ]
+}
